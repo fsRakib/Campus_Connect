@@ -5,6 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class LoginOtpActivity extends AppCompatActivity {
 
     String phoneNumber;
@@ -16,6 +21,7 @@ public class LoginOtpActivity extends AppCompatActivity {
 
         phoneNumber=getIntent().getExtras().getString("phone");
         Toast.makeText(getApplicationContext(),phoneNumber,Toast.LENGTH_LONG).show();
+
 
     }
 }
