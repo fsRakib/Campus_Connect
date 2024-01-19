@@ -26,6 +26,10 @@ public class FirebaseUtil {
     public static DocumentReference getChatroomReference(String cgatroomId){
         return FirebaseFirestore.getInstance().collection("chatrooms").document(cgatroomId);
     }
+    public static CollectionReference getChatroomMessageReference(String chatroomId){
+        return getChatroomReference(chatroomId).collection("chats");
+    }
+
     public static String getChatroomId(String userId1, String userId2){
         if(userId1.hashCode()<userId2.hashCode()){
             return userId1+"_"+userId2;
