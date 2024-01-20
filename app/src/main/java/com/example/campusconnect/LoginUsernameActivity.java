@@ -88,7 +88,7 @@ public class LoginUsernameActivity extends AppCompatActivity {
     {
         if(inProgress){
             progressBar.setVisibility(View.VISIBLE);
-            letMeInBtn.setVisibility(View.VISIBLE);
+            letMeInBtn.setVisibility(View.VISIBLE);//according to video there should be GONE
         }
         else {
             progressBar.setVisibility(View.GONE);
