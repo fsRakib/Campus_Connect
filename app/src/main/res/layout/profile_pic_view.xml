@@ -13,6 +13,6 @@
         android:src="@drawable/person_icon"
         android:backgroundTint="@color/off_white"
         android:padding="4dp"
-        app:tint="@color/light_gray" />
+        />
 
 </RelativeLayout>
