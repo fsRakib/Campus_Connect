@@ -79,6 +79,7 @@ public class ProfileFragment extends Fragment {
         updateProfileBtn.setOnClickListener((v -> {
             updateBtnClick();
         }));
+
         logoutBtn.setOnClickListener((v) -> {
             FirebaseMessaging.getInstance().deleteToken().addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
