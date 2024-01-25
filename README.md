@@ -8,3 +8,4 @@ This is my university academic project.
 | Campus Connect | Chat App | Java | Firebase |
 
 <img src ="https://github.com/fsRakib/Campus_Connect/blob/master/asset/Chat%20icon.png" alt="MLBC">
+<img src ="https://github.com/fsRakib/Campus_Connect/blob/master/asset/splash_Activity.jpg" alt="MLBC">
