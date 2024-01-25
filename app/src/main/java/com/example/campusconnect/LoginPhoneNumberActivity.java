@@ -24,6 +24,7 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login_phone_number);
 
         countryCodePicker=findViewById(R.id.login_countrycode);
+
         phoneInput=findViewById(R.id.login_mobile_number);
         sendOtpBtn=findViewById(R.id.send_otp_btn);
         progressBar=findViewById(R.id.login_progress_bar);

@@ -92,7 +92,10 @@
         <com.hbb20.CountryCodePicker
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/login_countrycode"/>
+            android:id="@+id/login_countrycode"
+            app:ccp_defaultNameCode="BD"/>
+
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,6 +119,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/btn_rounded_corner"
             android:text="Send OTP"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:id="@+id/send_otp_btn"/>
         <ProgressBar
